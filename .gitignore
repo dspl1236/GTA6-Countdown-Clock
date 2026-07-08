@@ -1,0 +1,43 @@
+# --- Secrets: never commit real credentials ---
+secrets.h
+Secrets.h
+arduino_secrets.h
+*.local.h
+.env
+
+# --- Arduino / ESP32 build output ---
+build/
+*.bin
+*.elf
+*.map
+*.hex
+*.d
+*.o
+*.a
+.build/
+*.ino.cpp
+
+# --- Arduino IDE / CLI ---
+.theia/
+.vscode/
+!.vscode/extensions.json
+.arduino15/
+sketch.json
+
+# --- PlatformIO (if anyone builds it that way) ---
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# --- OS cruft ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+._*
+
+# --- Editors ---
+*.swp
+*~
+.idea/
