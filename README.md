@@ -6,7 +6,9 @@ Counting down to **November 19, 2026**.
 
 > **Heads up:** This is a hobby project and a fan tribute. It is not affiliated with, endorsed by, or connected to Rockstar Games or Take-Two Interactive. *Grand Theft Auto* and related marks belong to their respective owners. See [Legal](#legal).
 
-![The clock running: 133 days, 16 hours, 22 minutes, 07 seconds until GTA VI](docs/images/clock.jpg)
+![The full boot sequence on real hardware: BIOS self-test, Rockstar card, title card, pull-back into Vice City, then the countdown clock](docs/images/boot.gif)
+
+<sub>The whole boot sequence, real hardware, real time. [Watch the full 1-minute video →](https://github.com/dspl1236/GTA6-Countdown-Clock/releases/latest)</sub>
 
 ---
 
@@ -35,7 +37,11 @@ Counting down to **November 19, 2026**.
 
 ## Gallery
 
-The boot sequence, in order, on real hardware:
+The clock face — a split-flap departure board counting down to launch:
+
+![The clock face reading 133 days, 16 hours, 22 minutes, 07 seconds, with a scrolling ticker beneath](docs/images/clock.jpg)
+
+The boot sequence, frame by frame:
 
 | 1. BIOS POST self-test | 2. Rockstar publisher card |
 |:---:|:---:|
