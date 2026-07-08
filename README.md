@@ -6,10 +6,7 @@ Counting down to **November 19, 2026**.
 
 > **Heads up:** This is a hobby project and a fan tribute. It is not affiliated with, endorsed by, or connected to Rockstar Games or Take-Two Interactive. *Grand Theft Auto* and related marks belong to their respective owners. See [Legal](#legal).
 
-<!-- Photo goes here. Save the hero shot as docs/images/clock.jpg, then delete this
-     comment wrapper to un-hide the image below.
-![Clock running](docs/images/clock.jpg)
--->
+![The clock running: 133 days, 16 hours, 22 minutes, 07 seconds until GTA VI](docs/images/clock.jpg)
 
 ---
 
@@ -33,6 +30,22 @@ Counting down to **November 19, 2026**.
 **Periodic drive-by** — every few minutes the Miami scene returns and a car swerves through the lanes for a few seconds, then back to the clock.
 
 **Self-managing time** — syncs NTP once at boot, then runs on the internal RTC with WiFi **off** to save power. Re-syncs every 24 hours: if it's on a known network it corrects any drift; if not, it keeps its current time and tries again next cycle. Good for portable/battery use.
+
+---
+
+## Gallery
+
+The boot sequence, in order, on real hardware:
+
+| 1. BIOS POST self-test | 2. Rockstar publisher card |
+|:---:|:---:|
+| ![BIOS POST screen listing CPU, memory, ROM and wanted-control checks, each reporting OK](docs/images/boot-1-bios.jpg) | ![The Rockstar Games R-star logo centered on the display](docs/images/boot-2-rockstar.jpg) |
+| **3. Title card** | **4. Pull-back into Vice City** |
+| ![The grand theft auto wordmark on three lines](docs/images/boot-3-title.jpg) | ![The VI logo above a synthwave Miami skyline with palms and a scrolling road](docs/images/boot-4-vice-city.jpg) |
+
+And the six-star wanted meter, one of the rotating bottom strips — it fills a star roughly every 24 days, so all six light up right at launch:
+
+![The clock face showing the six-star wanted meter along the bottom](docs/images/wanted-meter.jpg)
 
 ---
 

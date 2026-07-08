@@ -1,3 +1,13 @@
+# --- Raw media: keep the repo lean ---
+# Full-res camera originals and video belong on a Release or YouTube, not in
+# git history (blobs are permanent). Optimized, EXIF-stripped stills live in
+# docs/images/ and are committed normally.
+*.mp4
+*.mov
+*.MP4
+*.MOV
+PXL_*.jpg
+
 # --- Secrets: never commit real credentials ---
 secrets.h
 Secrets.h
