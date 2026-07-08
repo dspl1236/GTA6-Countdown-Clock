@@ -8,7 +8,7 @@ Counting down to **November 19, 2026**.
 
 ![The full boot sequence on real hardware: BIOS self-test, Rockstar card, title card, pull-back into Vice City, then the countdown clock](docs/images/boot.gif)
 
-<sub>The whole boot sequence, real hardware, real time. [Watch the full 1-minute video →](https://github.com/dspl1236/GTA6-Countdown-Clock/releases/latest)</sub>
+<sub>The whole boot sequence, real hardware, real time. **[▶ Watch the full 1-minute video on YouTube](https://youtu.be/o0FIq99I-CA)** · [or download it](https://github.com/dspl1236/GTA6-Countdown-Clock/releases/latest)</sub>
 
 ---
 
